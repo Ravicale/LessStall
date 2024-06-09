@@ -60,7 +60,7 @@ namespace LessStall {
             if (cards.Length != 0) {
                 if (this.IsUpgraded) { // When this card is upgraded, upgrade all selectable options.
                     foreach (Card card in cards) {
-                        card.IsUpgraded = true;
+                        card.Upgrade();
                     }
                 }
                 MiniSelectCardInteraction interaction = new MiniSelectCardInteraction(cards, false, false, false) {

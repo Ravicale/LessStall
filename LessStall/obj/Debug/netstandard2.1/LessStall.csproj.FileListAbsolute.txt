@@ -105,3 +105,4 @@ C:\Users\richa\source\repos\LessStall\LessStall\bin\Debug\netstandard2.1\LBoL-En
 C:\Users\richa\source\repos\LessStall\LessStall\obj\Debug\netstandard2.1\LessStall.csproj.Up2Date
 C:\Users\richa\source\repos\LessStall\LessStall\obj\Debug\netstandard2.1\LessStall.dll
 C:\Users\richa\source\repos\LessStall\LessStall\obj\Debug\netstandard2.1\LessStall.pdb
+C:\Users\richa\source\repos\LessStall\LessStall\obj\Debug\netstandard2.1\LessStall.sourcelink.json

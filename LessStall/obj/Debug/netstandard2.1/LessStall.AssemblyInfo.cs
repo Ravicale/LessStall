@@ -20,7 +20,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LessStall")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56c58a687bce67d7f50f0ce124bcfff2f493bfbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("LessStall")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LessStall")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
