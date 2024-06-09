@@ -1,0 +1,44 @@
+BailianNingshen:
+  Name: Meditation
+  Description: "Choose 1 of {Value1} random Common cards to add to the hand. It |temporarily costs| {Mana} and has |Replenish|."
+  UpgradedDescription: "Choose 1 of {Value1} random |Upgraded| Common cards to add to the hand. It |temporarily costs| {Mana} and has |Replenish|."
+  FlavorText: "Ms. Byakuren's short videos from \"Voice of Myourenji\" series are popular among middle-aged and elderly villagers and young monsters."
+
+LilyChun:
+  Description: "Add {Value1} random card{Value1:plural one='' other='s'} that {Value1:plural one='has' other='have'} a total cost of 1 to the hand. {Value1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} and {Value1:plural one='has' other='have'} |Exile| and |Ethereal|."
+  UpgradedDescription: "Add {Value1} random card{Value1:plural one='' other='s'} that {Value1:plural one='has' other='have'} a total cost of 1 to the hand. {Value1:plural one='It |temporarily costs|' other='They |temporarily cost|'} {Mana} and {Value1:plural one='has' other='have'} |Exile| and |Ethereal|."
+  Name: Spring is Here!
+  DetailText: "These |e:alternate cards| ignore character restrictions.\nOn |Upgrade|, they also ignore total mana and mana color restrictions.\n{SelfName} cannot be produced by this effect."
+
+BailianFire:
+  Name: Fires of Hokkai
+  UpgradedDescription: "All skill cards have their cost reduced to {Mana}.\nAdd {Value1} skill {Value1:plural one='card' other='cards'} to the draw pile. {Value1:plural one='It has' other='They have'} |Replenish|."
+  Description: "All skill cards have their cost reduced to {Mana}."
+BailianFireSe:
+  Name: Fires of Hokkai
+  Description: "All skill cards have their cost reduced to {Mana}."
+  Brief: "All skill cards have their cost reduced to {Mana}."
+
+YukariFriend:
+  Name: Yukari, Boundary of Fantasy
+  Description: '{FriendP}Gain |Firepower| equal to the number of defense cards played this turn. ({Fire})'
+  ExtraDescription1: '{FriendA}Gain {Value1} |Barrier|.'
+  ExtraDescription2: "{FriendU}Choose any number of cards from the hand, draw pile, or discard pile. |Exile| them, then choose a card from |Exile| and return it to the hand."
+
+LilyFriend:
+  Name: Lily White, Herald of Spring
+  Description: "{FriendS}Deal {Damage} attack damage to a random enemy {Value1} times.\n{FriendP}Gain {TurnMana}."
+  ExtraDescription1: "{FriendA}Gain {ActiveMana}."
+  ExtraDescription2: "{FriendU}Deal {Damage} attack damage to a random enemy {Value1} times. For each unspent mana, increase {SelfName}'s damage by {Value2}. (Total {UltDamage} damage)"
+
+MeilingFriend:
+  Name: Meiling, Neglectful Gatekeeper
+  Description: "{FriendS}Gain {Graze} |Graze|.\n{FriendP}Add a |Throwing Knife| to the hand.\nWhenever {PlayerName} receives damage from an enemy's whole attack, it triggers for an additional time."
+  ExtraDescription2: '{FriendU}Gain {Value1} |Spirit| and {Value2} |Firepower|.'
+
+PatchouliFriend:
+  Name: Patchouli, Elemental Alchemist
+  Description: "{FriendP}Convert {PassiveColor} random mana into |Philosopher's Mana|."
+  ExtraDescription1: "{FriendA}Gain {Value1} |Firepower| and |Spirit|. Add |{Value1:plural one='% Astrology' other='% Astrologies'}| to the hand."
+  ExtraDescription2: "{FriendU} Add {Value2} |Unstable Potion{Value2:plural one='' other='s'}| to the hand."
+  FlavorText: '"Shake, shake, sway, shake."'
