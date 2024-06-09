@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "Less_Stall",
   "version_number": "1.0.0",
-  "website_url": "",
-  "description": "",
-  "dependencies": [ "BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.5.0"]
+  "website_url": "https://github.com/Ravicale/LessStall/tree/master",
+  "description": "Mitigates most \"stall 1 hour for persistent resources\" combos.",
+  "dependencies": ["BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.5.0", "TeamNeo-Watermark-1.1.1"]
 }
