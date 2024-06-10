@@ -14,7 +14,7 @@ using System.Collections.Generic;
 
 /**
  * Lily White, Herald of Spring
- * +/- Ultimate now deals 5+unspent mana damage 3 times.
+ * +/- Ultimate now deals 5+(2*unspent mana) damage 3 times.
  * 
  * Lily was an infinite life stall-target.
  * Now she acts as a payoff+enabler for green big mana synergies.
@@ -40,7 +40,7 @@ namespace LessStall {
 
         public override CardConfig MakeConfig() {
             var config = CardConfig.FromId(GetId());
-            config.Value2 = 1; //Damage Increase per Unspent mana.
+            config.Value2 = 2; //Damage Increase per Unspent mana.
             return config;
         }
     }

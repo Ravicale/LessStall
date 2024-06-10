@@ -17,7 +17,7 @@ using LBoL.Core.StatusEffects;
 
 /**
  * Yukari, Boundary of Fantasy
- * +/- Activated ability now gives 25 barrier.
+ * +/- Activated ability now gives 35 barrier.
  * +/- Ultimate now lets you exile any number of cards from your hand, deck, or discard. Then return a card from exile to your hand.
  * 
  * Previously Yukari could be used as an infinite get-stuff-out-of-exile outlet in addition having an ult that acts as a stall outlet itself.
@@ -52,7 +52,7 @@ namespace LessStall {
 
         public override CardConfig MakeConfig() {
             var config = CardConfig.FromId(GetId());
-            config.Value1 = 25; //Barrier on activated ability.
+            config.Value1 = 35; //Barrier on activated ability.
             return config;
         }
     }
